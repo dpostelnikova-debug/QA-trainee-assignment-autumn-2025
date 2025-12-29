@@ -10,4 +10,4 @@
 
 
 - 
-    ![](./images_task_1/img_1.png)
+    ![](images_task_1/img_1.png)
