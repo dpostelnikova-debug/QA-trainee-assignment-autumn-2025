@@ -1,11 +1,13 @@
 {
   "name": "qa-trainee-assignment-autumn-2025",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "test": "playwright test"
   },
   "devDependencies": {
-    "@playwright/test"
+    "@playwright/test": "^1.42.0"
   }
 }
+
 
