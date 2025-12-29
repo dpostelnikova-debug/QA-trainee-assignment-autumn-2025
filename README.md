@@ -6,4 +6,4 @@
 
 Файлы для задания 2:
 - [test-case.md](test-case.md) - список тест-кейсов для проверки пользовательских сценариев  
-- [create-task.spec.js](create-task.spec.js) - тест-кейс проверки создания задачи
+- [create-task.spec.js](tests/create-task.spec.js) - тест-кейс проверки создания задачи
