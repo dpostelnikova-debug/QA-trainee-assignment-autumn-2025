@@ -10,4 +10,5 @@
 
 
 - 
-    ![](images_task_1/img_1.png)
+  ![img_1](images_task_1/img_1.png)
+
