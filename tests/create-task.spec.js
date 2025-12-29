@@ -5,7 +5,9 @@ test('Создание задачи', async ({ page }) => {
   await page.goto('https://avito-tech-internship-psi.vercel.app/issues');
 
   // Открываем
-  await page.getByRole('button', { name: 'Создать задачу' }).click();
+ await page.waitForSelector('text=Создать задачу');
+ await page.locator('text=Создать задачу').first().click();
+
 
   // Заполняем название и описание
   const title = page.getByPlaceholder('Название');
