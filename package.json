@@ -1,3 +1,11 @@
-npm init -y
-npm install -D @playwright/test
-npx playwright install
+{
+  "name": "qa-trainee-assignment-autumn-2025",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test"
+  }
+}
+
